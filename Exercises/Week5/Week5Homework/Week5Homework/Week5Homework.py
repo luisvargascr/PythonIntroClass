@@ -19,12 +19,11 @@ def countPages():
 def addEvenNumbers(x,y):
     range_num = list(range(x,y+1))
 
-    sum_of_num = 0
+   # sum_of_num = 0
 
     #for i in range_num:
-     #   if i % 2 != 0:
-      #      continue
-       # sum_of_num += i
+     #   if i % 2 == 0:
+      #     sum_of_num += i
 
     sum_of_num = sum([i for i in list(range(x,y+1)) if i%2 == 0])
     print(str(sum_of_num))
