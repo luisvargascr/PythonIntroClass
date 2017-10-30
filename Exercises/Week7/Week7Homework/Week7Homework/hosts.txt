@@ -1,0 +1,3 @@
+# This is a comment
+127.0.0.1     localhost#pythonclient
+192.168.2.253     pyschools    # python server
